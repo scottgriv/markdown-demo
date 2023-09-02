@@ -6,31 +6,45 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
 
 ## Table of Contents
 
-1. [Headers](#headers)
-2. [Emphasis](#emphasis)
-3. [Lists](#lists)
-4. [Links](#links)
-5. [Images](#images)
-6. [Code](#code)
-7. [Tables](#tables)
-8. [Horizontal Rules](#horizontal-rules)
-9. [Blockquotes](#blockquotes)
-10. [Inline HTML](#inline-html)
-11. [Escaping Characters](#escaping-characters)
-12. [Task Lists](#task-lists)
-13. [Footnotes](#footnotes)
-14. [Definition Lists](#definition-lists)
-15. [Automatic URL Linking](#automatic-url-linking)
-16. [Emojis](#emojis)
-17. [Math Equations](#math-equations)
-18. [Abbreviations](#abbreviations)
-19. [Citations](#citations)
-20. [References](#references)
-21. [Background on Markdown](#background-on-markdown)
+1. [Background on Markdown](#background-on-markdown)
+2. [Headers](#headers)
+3. [Emphasis](#emphasis)
+4. [Lists](#lists)
+5. [Links](#links)
+6. [Images](#images)
+7. [Code](#code)
+8. [Tables](#tables)
+9. [Horizontal Rules](#horizontal-rules)
+10. [Blockquotes](#blockquotes)
+11. [Inline HTML](#inline-html)
+12. [Escaping Characters](#escaping-characters)
+13. [Task Lists](#task-lists)
+14. [Footnotes](#footnotes)
+15. [Definition Lists](#definition-lists)
+16. [Automatic URL Linking](#automatic-url-linking)
+17. [Emojis](#emojis)
+18. [Math Equations](#math-equations)
+19. [Abbreviations](#abbreviations)
+20. [Citations](#citations)
+21. [References](#references)
 22. [Closing Remarks](#closing-remarks)
 23. [License](#license)
 
 ---
+
+## Background on Markdown
+
+Markdown is a lightweight markup language that was created by John Gruber and Aaron Swartz in 2004. The primary goal of Markdown is readability—the idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions.
+
+Markdown has gained immense popularity over the years because of its simplicity and readability. It's widely used for writing README files, documentation, blog posts, forums, and even in chat applications.
+
+### Why Use Markdown?
+
+- **Readability**: Markdown's syntax is designed to be simple and intuitive.
+- **Platform Independent**: You can use Markdown in a text editor, in a web editor, or as the formatting syntax for entire platforms.
+- **Rich Output**: With simple syntax, you can produce rich text formatting.
+- **Compatibility**: Many platforms automatically convert Markdown to HTML, making it easy to display rich text in a web browser.
+- **Extensible**: While standard Markdown handles most common use cases, many platforms introduce their own extensions (called 'flavors') to add additional functionality like tables, code blocks, and more.
 
 ## Headers
 
@@ -310,20 +324,6 @@ According to Smith [@smith04], blah blah... <br>
 - [StackEdit](https://stackedit.io/): An in-browser Markdown editor.
 - [Markdown Tutorial](https://chat.openai.com/?model=gpt-4#:~:text=browser%20Markdown%20editor.-,Markdown%20Tutorial,-%3A%20An%20interactive%20tutorial): An interactive tutorial to learn Markdown.
 - [Jupyter Notebook](https://jupyter.org/): Although not strictly a Markdown resource, Jupyter Notebooks use Markdown for all non-code cells, making it a useful tool for scientific documentation where code and commentary are intermixed.
-
-## Background on Markdown
-
-Markdown is a lightweight markup language that was created by John Gruber and Aaron Swartz in 2004. The primary goal of Markdown is readability—the idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions.
-
-Markdown has gained immense popularity over the years because of its simplicity and readability. It's widely used for writing README files, documentation, blog posts, forums, and even in chat applications.
-
-### Why Use Markdown?
-
-- **Readability**: Markdown's syntax is designed to be simple and intuitive.
-- **Platform Independent**: You can use Markdown in a text editor, in a web editor, or as the formatting syntax for entire platforms.
-- **Rich Output**: With simple syntax, you can produce rich text formatting.
-- **Compatibility**: Many platforms automatically convert Markdown to HTML, making it easy to display rich text in a web browser.
-- **Extensible**: While standard Markdown handles most common use cases, many platforms introduce their own extensions (called 'flavors') to add additional functionality like tables, code blocks, and more.
 
 ## Closing Remarks
 
