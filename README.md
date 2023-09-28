@@ -6,29 +6,36 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
 
 ## Table of Contents
 
-1. [Background on Markdown](#background-on-markdown)
-2. [Headers](#headers)
-3. [Emphasis](#emphasis)
-4. [Lists](#lists)
-5. [Links](#links)
-6. [Images](#images)
-7. [Code](#code)
-8. [Tables](#tables)
-9. [Horizontal Rules](#horizontal-rules)
-10. [Blockquotes](#blockquotes)
-11. [Inline HTML](#inline-html)
-12. [Escaping Characters](#escaping-characters)
-13. [Task Lists](#task-lists)
-14. [Footnotes](#footnotes)
-15. [Definition Lists](#definition-lists)
-16. [Automatic URL Linking](#automatic-url-linking)
-17. [Emojis](#emojis)
-18. [Math Equations](#math-equations)
-19. [Abbreviations](#abbreviations)
-20. [Citations](#citations)
-21. [References](#references)
-22. [Closing Remarks](#closing-remarks)
-23. [License](#license)
+- [Background on Markdown](#background-on-markdown)
+- [Headers](#headers)
+- [Emphasis](#emphasis)
+- [Lists](#lists)
+  - [Unordered Lists](#unordered-lists)
+  - [Ordered Lists](#ordered-lists)
+- [Links](#links)
+- [Images](#images)
+- [Code](#code)
+  - [Inline code](#inline-code)
+  - [Block code without syntax highlighting](#block-code-without-syntax-highlighting)
+  - [Block code with syntax highlighting](#block-code-with-syntax-highlighting)
+- [Tables](#tables)
+- [Horizontal Rules](#horizontal-rules)
+- [Blockquotes](#blockquotes)
+- [Inline HTML](#inline-html)
+- [Escaping Characters](#escaping-characters)
+- [Task Lists](#task-lists)
+- [Footnotes](#footnotes)
+- [Definition Lists](#definition-lists)
+- [Automatic URL Linking](#automatic-url-linking)
+- [Emojis](#emojis)
+- [Math Equations](#math-equations)
+- [Abbreviations](#abbreviations)
+- [Citations](#citations)
+- [GitHub Flavored Markdown](#github-flavored-markdown)
+  - [Alerts](#alerts)
+- [References](#references)
+- [Closing Remarks](#closing-remarks)
+- [License](#license)
 
 ---
 
@@ -293,6 +300,7 @@ E = mc^2
 ```
 
 ## Abbreviations
+
 Some extended Markdown processors allow abbreviations:
 
 ```markdown
@@ -313,6 +321,21 @@ According to Smith [@smith04], blah blah...
 According to Smith [@smith04], blah blah... <br>
 [@smith04]: John Smith. 2004. The Book Title. Publisher Name.
 
+## GitHub Flavored Markdown
+
+### Alerts
+
+GitHub Flavored Markdown supports alerts that can be used to highlight important information:
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
 ## References
 
 - [Markdown Guide](https://www.markdownguide.org/): A free and open-source reference guide that explains how to use Markdown.
@@ -324,6 +347,7 @@ According to Smith [@smith04], blah blah... <br>
 - [StackEdit](https://stackedit.io/): An in-browser Markdown editor.
 - [Markdown Tutorial](https://chat.openai.com/?model=gpt-4#:~:text=browser%20Markdown%20editor.-,Markdown%20Tutorial,-%3A%20An%20interactive%20tutorial): An interactive tutorial to learn Markdown.
 - [Jupyter Notebook](https://jupyter.org/): Although not strictly a Markdown resource, Jupyter Notebooks use Markdown for all non-code cells, making it a useful tool for scientific documentation where code and commentary are intermixed.
+- [GitHub Markdown Alerts](https://blog.jakelee.co.uk/github-alert-experiments/)
 
 ## Closing Remarks
 
