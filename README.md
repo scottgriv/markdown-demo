@@ -1,12 +1,32 @@
-# Comprehensive Markdown Guide
+<!-- Begin README -->
+
+<div align="center">
+    <a href="https://github.com/scottgriv/markdown-demo" target="_blank">
+        <img src="./docs/images/icon.png" width="200" height="200"/>
+    </a>
+</div>
+<p align="center">
+    <a href="https://daringfireball.net/projects/markdown/"><img src="https://img.shields.io/badge/Markdown-1.0.1-000000?style=for-the-badge&logo=markdown" alt="Markdown Badge" /></a>
+    <br>
+    <a href="https://github.com/scottgriv"><img src="https://img.shields.io/badge/github-follow_me-181717?style=for-the-badge&logo=github&color=181717" alt="GitHub Badge" /></a>
+    <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-EA4335?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
+    <a href="https://www.buymeacoffee.com/scottgriv"><img src="https://img.shields.io/badge/buy_me_a_coffee-support_me-FFDD00?style=for-the-badge&logo=buymeacoffee&color=FFDD00" alt="BuyMeACoffee Badge" /></a>
+    <br>
+    <a href="https://prgoptimized.com" target="_blank"><img src="https://img.shields.io/badge/PRG-Bronze Project-CD7F32?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDRDdGMzIiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Bronze" /></a>
+</p>
+
+---------------
+
+<h1 align="center">Comprehensive Markdown Guide</h1>
 
 This repository serves as a comprehensive guide to Markdown syntax. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
 
----
+---------------
 
 ## Table of Contents
 
-- [Background on Markdown](#background-on-markdown)
+- [Introduction](#introduction)
+  - [Why Use Markdown?](#why-use-markdown)
 - [Headers](#headers)
 - [Emphasis](#emphasis)
 - [Lists](#lists)
@@ -33,13 +53,12 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
 - [Citations](#citations)
 - [GitHub Flavored Markdown](#github-flavored-markdown)
   - [Alerts](#alerts)
-- [References](#references)
-- [Closing Remarks](#closing-remarks)
+- [Closing](#closing)
+- [Resources](#resources)
 - [License](#license)
+- [Credits](#credits)
 
----
-
-## Background on Markdown
+## Introduction
 
 Markdown is a lightweight markup language that was created by John Gruber and Aaron Swartz in 2004. The primary goal of Markdown is readability—the idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions.
 
@@ -222,6 +241,7 @@ ___
 <div align="center">Centered Text</div>
 
 ## Escaping Characters
+
 Backslash escapes Markdown characters:
 
 ```markdown
@@ -331,15 +351,24 @@ GitHub Flavored Markdown supports alerts that can be used to highlight important
   > [!NOTE]  
   > Highlights information that users should take into account, even when skimming.
 
+  > [!TIP]
+  > Optional information to help a user be more successful.
+
   > [!IMPORTANT]  
   > Crucial information necessary for users to succeed.
 
   > [!WARNING]  
   > Critical content demanding immediate user attention due to potential risks.
+
+  > [!CAUTION]
+  > Negative potential consequences of an action.
 ```
 
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
 
 > [!IMPORTANT]  
 > Crucial information necessary for users to succeed.
@@ -347,39 +376,48 @@ GitHub Flavored Markdown supports alerts that can be used to highlight important
 > [!WARNING]  
 > Critical content demanding immediate user attention due to potential risks.
 
-## References
+> [!CAUTION]
+> Negative potential consequences of an action.
 
-- [Markdown Guide](https://www.markdownguide.org/): A free and open-source reference guide that explains how to use Markdown.
-- [Daring Fireball](https://daringfireball.net/projects/markdown/): The original Markdown project by John Gruber.
-- [GitHub Flavored Markdown](https://github.github.com/gfm/): GitHub's variant of Markdown, which includes features like task lists and tables.
-- [CommonMark](https://commonmark.org/): A strong specification of Markdown, designed to clarify many edge cases and inconsistencies in the original Markdown specification.
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet): A quick reference to Markdown syntax.
-- [Pandoc](https://pandoc.org/): A universal document converter that supports Markdown and many other markup languages.
-- [StackEdit](https://stackedit.io/): An in-browser Markdown editor.
-- [Markdown Tutorial](https://chat.openai.com/?model=gpt-4#:~:text=browser%20Markdown%20editor.-,Markdown%20Tutorial,-%3A%20An%20interactive%20tutorial): An interactive tutorial to learn Markdown.
-- [Jupyter Notebook](https://jupyter.org/): Although not strictly a Markdown resource, Jupyter Notebooks use Markdown for all non-code cells, making it a useful tool for scientific documentation where code and commentary are intermixed.
-- [GitHub Markdown Alerts](https://blog.jakelee.co.uk/github-alert-experiments/)
-
-## Closing Remarks
+## Closing
 
 Remember, not all of these features are supported in every Markdown processor. Always check your specific processor's documentation for supported features.
 
 You can use this as a README for your repository. Feel free to expand and improve the guide to better fit your requirements or to add more advanced features. Also, feel free to contribute and expand this guide for better community knowledge.
 
+## Resources
+
+- [Markdown Guide](https://www.markdownguide.org/) - A free and open-source reference guide that explains how to use Markdown.
+- [Daring Fireball](https://daringfireball.net/projects/markdown/) - The original Markdown project by John Gruber.
+- [GitHub Flavored Markdown](https://github.github.com/gfm/) - GitHub's variant of Markdown, which includes features like task lists and tables.
+- [CommonMark](https://commonmark.org/) - A strong specification of Markdown, designed to clarify many edge cases and inconsistencies in the original Markdown specification.
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - A quick reference to Markdown syntax.
+- [Pandoc](https://pandoc.org/) - A universal document converter that supports Markdown and many other markup languages.
+- [StackEdit](https://stackedit.io/) - An in-browser Markdown editor.
+- [Markdown Tutorial](https://chat.openai.com/?model=gpt-4#:~:text=browser%20Markdown%20editor.-,Markdown%20Tutorial,-%3A%20An%20interactive%20tutorial) - An interactive tutorial to learn Markdown.
+- [Jupyter Notebook](https://jupyter.org/) - Although not strictly a Markdown resource, Jupyter Notebooks use Markdown for all non-code cells, making it a useful tool for scientific documentation where code and commentary are intermixed.
+- [GitHub Markdown Alerts](https://blog.jakelee.co.uk/github-alert-experiments/) - A blog post that discusses the use of GitHub Markdown Alerts
+- [GitHub Markdown Alerts Discussion](https://github.com/orgs/community/discussions/16925) - A GitHub discussion that discusses the use of GitHub Markdown Alerts
+
 ## License
 
-- This project is released under the terms of the **MIT License**, which permits use, modification, and distribution of the code, subject to the conditions outlined in the license.
+This project is released under the terms of the **MIT License**, which permits use, modification, and distribution of the code, subject to the conditions outlined in the license.
 - The [MIT License](https://choosealicense.com/licenses/mit/) provides certain freedoms while preserving rights of attribution to the original creators.
-- For more details, see the [LICENSE](LICENSE) file in this repository.
+- For more details, see the [LICENSE](LICENSE) file in this repository. in this repository.
 
 ## Credits
 
-**Author:** [Scott Grivner](https://github.com/scottgriv)<br>
-**Email:** scott.grivner@nightowllabs.net<br>
-**Website:** [nightowllabs.net](https://www.nightowllabs.net)<br>
-**Reference:** [Main Branch](https://github.com/Night-Owl-Labs/LaTeX-Demo)
+**Author:** [Scott Grivner](https://github.com/scottgriv) <br>
+**Email:** [scott.grivner@gmail.com](mailto:scott.grivner@gmail.com) <br>
+**Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
+**Reference:** [Main Branch](https://github.com/scottgriv/markdown-demo) <br>
+
+---------------
+
 <div align="center">
-    <a href="https://github.com/Night-Owl-Labs" target="_blank">
-        <img src="./docs/images/NOL.png" style="width: 100px; height: 100px;" />
+    <a href="https://github.com/scottgriv" target="_blank">
+        <img src="./docs/images/footer.png" width="100" height="100"/>
     </a>
 </div>
+
+<!-- End README -->
