@@ -19,7 +19,9 @@
 
 <h1 align="center">Comprehensive Markdown Guide</h1>
 
-This repository serves as a comprehensive guide to Markdown syntax. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
+This document provides a comprehensive guide to **Markdown syntax**—a lightweight markup language used to format plain text.
+
+Use this guide alongside a Markdown previewer or formatter to compare the rendered output with the original raw text for a better understanding of how Markdown works.
 
 ---------------
 
@@ -51,8 +53,11 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
 - [Math Equations](#math-equations)
 - [Abbreviations](#abbreviations)
 - [Citations](#citations)
-- [GitHub Flavored Markdown](#github-flavored-markdown)
+- [Alerts & Callouts](#alerts&callouts)
   - [Alerts](#alerts)
+  - [Callouts](#callouts)
+- [Tags](#tags)
+- [HTML Support](#html-support)
 - [Closing](#closing)
 - [Resources](#resources)
 - [License](#license)
@@ -148,11 +153,11 @@ Markdown has gained immense popularity over the years because of its simplicity 
 ## Links
 
 ```markdown
-[GitHub](http://github.com)
-[GitHub with Title](http://github.com "GitHub")
+http://github.com
+[GitHub with Title](http://github.com)
 ```
-[GitHub](http://github.com) <br>
-[GitHub with Title](http://github.com "GitHub")
+http://github.com <br>
+[GitHub with Title](http://github.com)
 
 ## Images
 
@@ -341,7 +346,9 @@ According to Smith [@smith04], blah blah...
 According to Smith [@smith04], blah blah... <br>
 [@smith04]: John Smith. 2004. The Book Title. Publisher Name.
 
-## GitHub Flavored Markdown
+## Alerts & Callouts
+
+Use alerts/callouts to include additional content without breaking the flow of your notes.
 
 ### Alerts
 
@@ -379,6 +386,25 @@ GitHub Flavored Markdown supports alerts that can be used to highlight important
 > [!CAUTION]
 > Negative potential consequences of an action.
 
+### Callouts 
+
+Other markdown editors have their own methods and features for Alerts/Callouts.
+For Obsidian, for example, check out their document [here](https://help.obsidian.md/callouts) for more information.
+
+## Tags
+
+Markdown editiors like Obsidian may support tags to organize your topics across multiple markdown documents:
+
+```markdown
+#TestTag1 #TestTag2
+```
+
+#TestTag1 #TestTag2
+
+## HTML Support
+
+Most Markdown editors also support inline `HTML`, allowing you to incorporate elements that Markdown doesn't natively support—such as tables with advanced formatting, custom divs, or embedded media.
+
 ## Closing
 
 Remember, not all of these features are supported in every Markdown processor. Always check your specific processor's documentation for supported features.
@@ -398,6 +424,7 @@ You can use this as a README for your repository. Feel free to expand and improv
 - [Jupyter Notebook](https://jupyter.org/) - Although not strictly a Markdown resource, Jupyter Notebooks use Markdown for all non-code cells, making it a useful tool for scientific documentation where code and commentary are intermixed.
 - [GitHub Markdown Alerts](https://blog.jakelee.co.uk/github-alert-experiments/) - A blog post that discusses the use of GitHub Markdown Alerts
 - [GitHub Markdown Alerts Discussion](https://github.com/orgs/community/discussions/16925) - A GitHub discussion that discusses the use of GitHub Markdown Alerts
+- [Obsidian Callouts](https://help.obsidian.md/callouts) - Use callouts to include additional content without breaking the flow of your notes.
 
 ## License
 
